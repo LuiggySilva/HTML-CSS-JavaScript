@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+	
+		<style>
+			table {
+				border-collapse: collapse;
+				border: 2px solid gray;
+				align: center;
+			}
+			td {
+				width: 50px;
+				height: 50px;
+				border: 1px solid gray;
+				text-align: center;
+				vertical-align: center;
+				font-family: monospace;
+				font-size: 10px;
+				position: relative;
+				background-color: #000000;
+			}
+			.pixelIndex {
+				font-size: 10px;
+				display: inline-block;
+				position: absolute;
+				top: 2px;
+				right: 2px;
+				color: gray;
+			}
+			#Debug {
+				width:250px;
+				height:100px;
+				font-size: 60px;
+			}
+			#Stade {
+				width:250px;
+				height:100px;
+				font-size: 60px;
+			}
+			#morePower{
+				height:100px;
+				width: 100px;
+				font-size:60px;
+			}
+			#lessPower{
+				height:100px;
+				width: 100px;
+				font-size:60px;
+			}
+			span.txt {
+				font-size:60px;
+			}
+		</style>
+	
+	</head>
+	
+	<body>
+
+		<div id="fire"> </div>
+		<script src="JAVASCRIPT-Fire.js"> </script>
+		
+		<button id="Debug"> Debug </button>
+		<button id="Stade" > On - Off </button>
+		
+		<button id="morePower"> - </button>
+		<span class="txt">FirePower</span>
+		<button id="lessPower" > + </button>
+	
+	</body>
+</html>
